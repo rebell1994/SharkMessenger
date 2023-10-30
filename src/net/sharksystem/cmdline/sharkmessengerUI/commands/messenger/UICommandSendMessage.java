@@ -29,6 +29,7 @@ public class UICommandSendMessage extends UICommandProduceChannelListBefore {
         this.receivers = new UICommandStringArgument(sharkMessengerApp);
         this.receivers.setEmptyStringAllowed(true);
     }
+    
 
     @Override
     public UICommandQuestionnaire specifyCommandStructure() {

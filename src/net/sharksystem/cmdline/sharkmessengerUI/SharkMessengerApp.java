@@ -27,7 +27,7 @@ public class SharkMessengerApp {
     private final SharkPKIComponent pkiComponent;
     private final HubConnectionManager hubConnectionManager;
 
-    SharkMessengerApp(String peerName) throws SharkException {
+    public SharkMessengerApp(String peerName) throws SharkException {
         this.sharkPeerFS = new SharkPeerFS(peerName, ROOTFOLDER + "/" + peerName);
 
         // set up shark components
